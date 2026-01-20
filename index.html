@@ -1,0 +1,335 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio - CSE Student</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">&lt;Portfolio/&gt;</div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#achievements" class="nav-link">Achievements</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Date Time Display -->
+    <div class="datetime-banner">
+        <div class="container">
+            <div class="date-time" id="datetime"></div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="glitch" data-text="Hello, I'm">Hello, I'm</span>
+                <span class="name-highlight">AKILAN I</span>
+            </h1>
+            <div class="typewriter-container">
+                <p class="typewriter" id="typewriter"></p>
+            </div>
+            <p class="hero-description">
+                CSE 3rd Year Student passionate about Cybersecurity & GenAI
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn-primary">View Projects</a>
+                <a href="#contact" class="btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="hero-decoration">
+                <div class="code-lines">
+                    <span class="code-line">&lt;developer&gt;</span>
+                    <span class="code-line">  skills: ["HTML&CSS", "Python", "Java"]</span>
+                    <span class="code-line">  passion: "Cybersecurity & GenAI"</span>
+                    <span class="code-line">  status: "Learning & Growing"</span>
+                    <span class="code-line">&lt;/developer&gt;</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate Computer Science Engineering student in my 3rd year, with a strong foundation in cybersecurity and artificial intelligence. My journey in tech has been driven by curiosity and a desire to solve complex problems.</p>
+                    <p>I believe in continuous learning and staying updated with the latest technological trends. My experience spans across various domains including web development, cybersecurity practices, and AI/ML implementations.</p>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <h3>2+</h3>
+                            <p>Internships Completed</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>5+</h3>
+                            <p>Hackathons Participated</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>5+</h3>
+                            <p>Projects Built</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">C</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Web Technologies</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">Node.js</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Cybersecurity</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Network Security</span>
+                        <span class="skill-tag">Penetration Testing</span>
+        
+                        <span class="skill-tag">Vulnerability Assessment</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>AI/ML & Design</h3>
+                    <div class="skill-items">
+                        
+                        <span class="skill-tag">GenAI</span>
+                        <span class="skill-tag">UI/UX Design</span>
+                        <span class="skill-tag">Data Structures</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>GenAI Intern</h3>
+                        <h4>OneYes InfoTech Solutions</h4>
+                        <span class="timeline-date">2025</span>
+                        <p>Worked on generative AI projects, implementing machine learning models and contributing to AI-driven solutions. Gained hands-on experience with LLMs and neural networks.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Cybersecurity Intern</h3>
+                        <h4>Zero Touch</h4>
+                        <span class="timeline-date">2024</span>
+                        <p>Assisted in vulnerability assessments, penetration testing, and security audits. Learned about network security protocols and ethical hacking methodologies.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Security Scanner Tool</h3>
+                        <p>A web-based vulnerability scanner built with JavaScript and Python. Features automated security checks and detailed reporting.</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>Python</span>
+                            <span>HTML/CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>AI Chatbot</h3>
+                        <p>An intelligent chatbot powered by machine learning algorithms. Implemented natural language processing for better user interaction.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>NLP</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio Website</h3>
+                        <p>A responsive portfolio website showcasing projects and skills. Built with modern web technologies and optimized for performance.</p>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Hackathon</h3>
+                    <p>Smart India Hackathon </p>
+                    <br>
+                    <p></p>
+                    <span class="achievement-date">2024</span>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>Tech Symposium</h3>
+                    <p>DAKSHAA T25 Held on March 28,29 At KSR College of Technology</p>
+                    <p>Tchazura'25 Held on April 03 At Hindustan College of Engineering and Technology</p>
+                    <p>Participated in various workshops and sessions</p>
+                    <span class="achievement-date">2024</span>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-running"></i>
+                    </div>
+                    <h3>Sports Achievement</h3>
+                    <p>Inter-College Athletics - 1st Place</p>
+                    <p>Secure 6th position in the KSR Mini Marathon</p>
+                    <p>Participated in various Marathons</p>
+                    <span class="achievement-date">2025</span>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <h3>Boot Camp</h3>
+                    <p>Build Websites , Mobile App with Digital Impact Boot Camp in Praskal Technlogy</p>
+                    <p>MasterClass in Cybersecurity From Jan 09 to Feb 21st in NoviTech</p>
+                    <span class="achievement-date">2024-2025</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+     <center>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <center>
+                    <h3>Let's Connect!</h3>
+                    <p>I'm always open to discussing new opportunities, collaborating on interesting projects, or just having a chat about technology.</p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>akilaniyyamperumalcs@gmail.com</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <span>+917200576476</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-linkedin"></i>
+                            <span>linkedin.com/in/aki-lan-ip-bb4415292</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-github"></i>
+                            <span>https://github.com/akilan08ip</span>
+                        </div>
+                        </center>
+                    </div>
+                </div>
+         
+            </div>
+        </div>
+    </section>
+    </center>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Akilan . All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/akilan08ip" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/aki-lan-ip-bb4415292" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
